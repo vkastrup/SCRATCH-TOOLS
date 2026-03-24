@@ -14,9 +14,9 @@ ProjectData = Dict[str, Optional[str]]
 
 
 # External file paths
-LOG_FILE = Path.home() / "Desktop/updater_log.txt"
-DEFAULT_OUTPUT_FILE = Path.home() / "Desktop/updated_metadata.xml"
-SCRATCH_CMD_LOG = Path.home() / "Desktop/scratch_cmd_log.txt"
+LOG_FILE = Path.home() / "your-path-here/updater_log.txt"
+DEFAULT_OUTPUT_FILE = Path.home() / "your-path-here/updated_metadata.xml"
+SCRATCH_CMD_LOG = Path.home() / "your-path-here/scratch_cmd_log.txt"
 
 
 # Set up logging
