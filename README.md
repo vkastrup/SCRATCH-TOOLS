@@ -6,7 +6,7 @@ most of these only work on MacOS
 EXR Compression Updater v3.\
 Injects compression type metadata to exr files in Assimilate Scratch.
 
-Add as Application type Custom command, select one or more shots in a construct and use the custom command in the tools menu.\
+Add as Application type Custom command and make sure "Require Shot Selection" is ON , select one or more shots in a construct and use the custom command in the tools menu.\
 The compression type of the EXRs are now added to the metadata stack.
 
 
