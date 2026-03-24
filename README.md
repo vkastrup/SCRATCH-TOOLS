@@ -35,3 +35,18 @@ ScopeOpen.py as Application Start\
 ScopeClose.py as Application Close
 
 ------------------------------------
+
+backup assimilator.\
+Copies your Project, Settings and Users directories.\
+Make sure to edit the filepaths.
+
+SOURCE_FOLDERS = [
+    "/Library/Application Support/Assimilator/Project",\
+    "/Library/Application Support/Assimilator/Settings",\
+    "/Library/Application Support/Assimilator/Users",\
+]
+
+DESTINATION = Path("/your/path/here/ScratchBackups")
+
+
+------------------------------------
