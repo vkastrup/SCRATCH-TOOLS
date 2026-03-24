@@ -1,4 +1,5 @@
 # SCRATCH-TOOLS
+most of these only work on MacOS
 
 
 ------------------------------------
@@ -24,5 +25,13 @@ Opens terminal that tails the current log.\
 MacOS only.
 
 
+
+------------------------------------
+
+OmniScope Scratch Scripts.\
+These two scripts open and close omniscope along with scratch.\
+Add as System Event type Custom Commands.\
+ScopeOpen.py as Application Start\
+ScopeClose.py as Application Close
 
 ------------------------------------
