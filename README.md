@@ -17,3 +17,12 @@ SCRATCH_CMD_LOG = Path.home() / "your-path-here/scratch_cmd_log.txt"
 
 
 ------------------------------------
+
+Assimilator Debug Launcher.\
+Launches Assimilator/Scratch with the debug flag.\
+Opens terminal that tails the current log.\
+MacOS only.
+
+
+
+------------------------------------
