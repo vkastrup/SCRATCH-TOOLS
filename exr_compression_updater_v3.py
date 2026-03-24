@@ -14,8 +14,9 @@ ProjectData = Dict[str, Optional[str]]
 
 
 # External file paths
-LOG_FILE = Path.home() / "~path-to-directory~/updater_log.txt"
-DEFAULT_OUTPUT_FILE = Path.home() / "~path-to-directory~/updated_metadata.xml"
+LOG_FILE = Path.home() / "Desktop/updater_log.txt"
+DEFAULT_OUTPUT_FILE = Path.home() / "Desktop/updated_metadata.xml"
+SCRATCH_CMD_LOG = Path.home() / "Desktop/scratch_cmd_log.txt"
 
 
 # Set up logging
@@ -142,7 +143,7 @@ def parse_input_xml(xml_file: str) -> ProjectData:
 def generate_new_xml(data: ProjectData, output_path: Path) -> None:
     """Generate a new XML file with updated metadata."""
     try:
-        root = ET.Element("scratch", log_file=str(output_path))
+        root = ET.Element("scratch", log_file=str(SCRATCH_CMD_LOG))
 
         # Create <commands> structure
         commands = ET.SubElement(root, "commands")
