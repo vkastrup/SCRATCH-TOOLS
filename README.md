@@ -32,7 +32,8 @@ OmniScope Scratch Scripts.\
 These two scripts open and close omniscope along with scratch.\
 Add as System Event type Custom Commands.\
 ScopeOpen.py as Application Start\
-ScopeClose.py as Application Close
+ScopeClose.py as Application Close\
+MacOS only.
 
 ------------------------------------
 
