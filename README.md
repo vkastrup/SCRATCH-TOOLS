@@ -1,5 +1,5 @@
 # SCRATCH-TOOLS
-most of these only work on MacOS
+most of these only work on MacOS - feel free to modify for Windows
 
 
 ------------------------------------
